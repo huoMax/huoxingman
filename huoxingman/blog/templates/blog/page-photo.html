@@ -551,7 +551,7 @@
 					
 					$('#customizercss').remove();
 					
-					$('link[href="{% static 'assets/css/colors/default-colors.css' %}"]').after('<link id="customizercss" rel="stylesheet" href="{% static 'assets/css/colors/'+jQuery(this).data('color')+'.css' %}">');
+					$('link[href="assets/css/colors/default-colors.css"]').after('<link id="customizercss" rel="stylesheet" href="assets/css/colors/'+jQuery(this).data('color')+'.css">');
 			
 					
 					
